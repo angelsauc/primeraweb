@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.bg-rojohome {
+    background-color: rgba(212, 56, 56, 0.645);
+}
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.text-subr {
+    text-decoration: underline;
+}
+#listaoc ol {
+    list-style-type: upper-alpha;
+}
+#listaoc ol ol {
+    list-style-type: upper-roman;
+}
+#listaotc ol {
+    list-style-type: lower-alpha;
+}
+#listaotc ol ol {
+    list-style-type: lower-roman;
+}
+#listaotc ol ol ol {
+    list-style-type: upper-roman;
+}
+#listadtc ul ul {
+    list-style-image: url(../img/icono.png);
+}
+#listadtc ul ul ul{
+    list-style-image: none;
+    list-style-type: square;
+}
+dt {
+    background-color: rgb(3, 3, 39);
+    color: white;
+    font-size: 20px;
+    display: inline;
+}
+dd {
+    padding: 10px 0;
+}
+table, th, td {
+    color: #398283;
+    border: 1px solid black;
+    font-weight: bolder ;
+  }
+.tcenter{
+   margin: 0 auto;
+}
+.ENDE{
+  color: black;
+  background-color: #b4b36e;
+}
+.LMSG{
+    color: black;
+    background-color: #f7cac9;
+  }
+.BDD{
+    color: black;
+    background-color: #d2d2fb;
+  }
+.FOL{
+    color: black;
+    background-color: #8081bb;
+  }
+.PROG{
+    color: black;
+    background-color: #b37b7a;
+  } 
+.SISI{
+    color: black;
+    background-color: #a5da9c;
+  } 
+.ING{
+    color: black;
+    background-color: #77b3eb;
+  }
