@@ -11,6 +11,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    background-color: #faacac;
 }
 /* For mobile: */
 @media screen and (max-width: 1000px) {
@@ -101,7 +102,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb(152, 143, 143);
     border-radius: 10px;
 }
 nav ul{
@@ -128,11 +129,12 @@ nav li {
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: rgb(17, 14, 14);
+    font-weight: bolder ;
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background-color:  rgb(222, 147, 147);
 }
 
 .text-right{
