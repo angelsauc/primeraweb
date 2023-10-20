@@ -245,6 +245,7 @@ table, th, td {
     color: #398283;
     border: 1px solid black;
     font-weight: bolder ;
+    background-color: white;
   }
 .tcenter{
    margin: 0 auto;
